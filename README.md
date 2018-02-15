@@ -1,0 +1,1 @@
+Some examples of composition pattern and reuse.
