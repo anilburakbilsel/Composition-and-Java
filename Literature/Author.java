@@ -15,7 +15,7 @@ public class Author {
     }
   
     // The public getters and setters for the private instance variables.
-    // No setter for name and gender as they are not designed to be changed.
+    // No setter for name and gender as they are not designed to be changed. (at least fot this program)
     public String getName() {
        return name;
     }
