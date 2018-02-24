@@ -12,6 +12,7 @@ public class Line {
     // always try to make private data fields (encapsulation)
 
     // Constructors
+    // Function overload, we have two constructors depending on the arguments given
     public Line(int x1, int y1, int x2, int y2) {
        begin = new Point(x1, y1);  // Construct the instances declared
        end   = new Point(x2, y2);
@@ -35,7 +36,7 @@ public class Line {
        this.end = end;
     }
   
-    public int getBeginX() {
+    public int getBeginX() { // this function makes a call to Point class
        return begin.getX();  // Point's getX()
     }
     public void setBeginX(int x) {
